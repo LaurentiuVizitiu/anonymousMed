@@ -1,0 +1,58 @@
+.about-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about-heading {
+  text-transform: uppercase;
+}
+
+.about-heading .about-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.about-heading .about-heading-lower {
+  display: block;
+  font-size: 38px;
+  font-weight: 100;
+}
+
+.bg-faded {
+  background-color: rgba(17, 219, 207, 0.8);
+}
+
+.about-button .btn-color {
+  background: #03a59a;
+  font-weight: bold;
+  color: #fff;
+}
+.about {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .about .about-img {
+    width: 75%;
+    float: right;
+  }
+  .about .about-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .about .about-text .about-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-text {
+    width: 45%;
+  }
+}
